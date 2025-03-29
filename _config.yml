@@ -1,5 +1,5 @@
 title: "Human-Machine Harmony for Infrastructure (HMHI)"
-email: seongeup@andrew.cmu.edu
+email: youremail@cmu.edu
 description: >- 
   A research lab at CMU exploring human-machine collaboration for smarter infrastructure systems.
 
@@ -10,17 +10,5 @@ remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
-
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
 
 markdown: kramdown
