@@ -16,4 +16,11 @@ collections:
     output: true
     permalink: /:path/
 
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
 markdown: kramdown
