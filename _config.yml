@@ -11,4 +11,9 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 markdown: kramdown
