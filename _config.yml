@@ -3,11 +3,14 @@ email: youremail@cmu.edu
 description: >- 
   A research lab at CMU exploring human-machine collaboration for smarter infrastructure systems.
 baseurl: "/hmhi"
-url: "https://separk-1.github.io"
+url: "https://hmhi-lab.github.io"
+
 remote_theme: "mmistakes/minimal-mistakes"
+
 plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
+
 markdown: kramdown
