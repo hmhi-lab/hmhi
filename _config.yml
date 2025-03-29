@@ -1,0 +1,11 @@
+title: "HMHI"
+description: "Human-Machine Harmony for Infrastructure"
+baseurl: "/hmhi"
+url: "https://hmhi-lab.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown

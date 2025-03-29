@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "HMHI"
+title: "Human-Machine Harmony for Infrastructure (HMHI)"
 permalink: /
 ---
 
-Welcome to the Human-Machine Harmony for Infrastructure Lab.
+Welcome to the HMHI Lab.
