@@ -1,6 +1,6 @@
 ---
-layout: splash
-title: "Human-Machine Harmony for Infrastructure Lab"
+layout: default
+title: "HMHI"
 permalink: /hmhi/
 ---
 
