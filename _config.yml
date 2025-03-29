@@ -4,7 +4,7 @@ description: >-
   A research lab at CMU exploring human-machine collaboration for smarter infrastructure systems.
 baseurl: "/hmhi"
 url: "https://separk-1.github.io"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
   - jekyll-archives
