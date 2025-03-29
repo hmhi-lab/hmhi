@@ -1,6 +1,6 @@
 title: "HMHI"
 description: "Human-Machine Harmony for Infrastructure"
-baseurl: "/hmhi"
+baseurl: ""
 url: "https://hmhi-lab.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes"
