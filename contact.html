@@ -1,35 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Professor - HMHI</title>
+    <title>Contact</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Source+Serif+Pro:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-		body {
-			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		}
-		h1, h2, h3, h4, h5, h6,
-		.logo,
-		nav#menu h2,
-		.button,
-		.major h2 {
-			font-family: 'Source Serif Pro', serif;
-		}
-		.professor-section {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 2rem;
-		}
-		.column {
-			flex: 1;
-			min-width: 250px;
-		}
-		.media-section {
-			margin-top: 2rem;
-		}
-	</style>
 	
 </head>
 <body class="is-preload">
@@ -41,7 +17,11 @@
                 </header>
 
                 <!-- Form -->
-                <h3>Contact Us</h3>
+                <section>
+                    <header class="main">
+                        <h1>Contact</h1>
+						<p style="text-transform: none;">We’d love to hear from you! Whether you're interested in research collaboration, joining our lab, or have a general inquiry, feel free to send us a message.</p>
+                    </header>
 
                 <form method="post" action="#">
                     <div class="row gtr-uniform">
@@ -51,55 +31,105 @@
                         <div class="col-6 col-12-xsmall">
                             <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
                         </div>
-                        <!-- Break -->
+
+                        <!-- Category selection -->
                         <div class="col-12">
                             <select name="demo-category" id="demo-category">
-                                <option value="">- Category -</option>
-                                <option value="1">Manufacturing</option>
-                                <option value="1">Shipping</option>
-                                <option value="1">Administration</option>
-                                <option value="1">Human Resources</option>
+                            <option value="">- Select a Topic -</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="collaboration">Research Collaboration</option>
+                            <option value="join">Joining the Lab</option>
+                            <option value="media">Media or Speaking Request</option>
                             </select>
                         </div>
-                        <!-- Break -->
-                        <div class="col-4 col-12-small">
-                            <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                            <label for="demo-priority-low">Low</label>
-                        </div>
-                        <div class="col-4 col-12-small">
-                            <input type="radio" id="demo-priority-normal" name="demo-priority">
-                            <label for="demo-priority-normal">Normal</label>
-                        </div>
-                        <div class="col-4 col-12-small">
-                            <input type="radio" id="demo-priority-high" name="demo-priority">
-                            <label for="demo-priority-high">High</label>
-                        </div>
-                        <!-- Break -->
+                        
+                        <!-- Optional checkboxes -->
                         <div class="col-6 col-12-small">
                             <input type="checkbox" id="demo-copy" name="demo-copy">
                             <label for="demo-copy">Email me a copy</label>
                         </div>
-                        <div class="col-6 col-12-small">
-                            <input type="checkbox" id="demo-human" name="demo-human" checked>
-                            <label for="demo-human">I am a human</label>
-                        </div>
-                        <!-- Break -->
+                        
+                        <!-- Message box -->
                         <div class="col-12">
                             <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
                         </div>
-                        <!-- Break -->
+
+                        <!-- Submit -->
                         <div class="col-12">
                             <ul class="actions">
-                                <li><input type="submit" value="Send Message" class="primary" /></li>
                                 <li><input type="reset" value="Reset" /></li>
+                                <li><input type="submit" value="Send Message" class="primary" /></li>
                             </ul>
                         </div>
                     </div>
                 </form>
+                <hr />
+                <p>Prefer direct email? Reach us at <a href="mailto:ptang@andrew.cmu.edu">ptang@andrew.cmu.edu</a></p>
+                </section>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="inner">
+
+                <!-- Menu -->
+                    <nav id="menu">
+                        <header class="major">
+                            <h2>Menu</h2>
+                        </header>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li>
+                                <span class="opener">People</span>
+                                <ul>
+                                    <li><a href="faculty.html">Faculty</a></li>
+                                    <li><a href="members.html">Members</a></li>
+                                    <li><a href="#">Alumni</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Publications</a></li>
+                            <li><a href="#">News & Events</a></li>
+							<!--<li><a href="#">Join Us</a></li>-->
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                <!-- Section -->
+                    <section>
+                        <header class="major">
+                        <h2>Get in touch</h2>
+                        </header>
+                        <p>If you’re interested in collaborating with us or learning more about our research, feel free to reach out.</p>
+                        <ul class="contact">
+                        <li class="icon solid fa-envelope">
+                            <a href="mailto:ptang@andrew.cmu.edu">ptang@andrew.cmu.edu</a>
+                        </li>
+                        <li class="icon solid fa-phone">
+                            412.268.8215
+                        </li>
+                        <li class="icon solid fa-home">
+                            123F Porter Hall<br />
+                            Carnegie Mellon University<br />
+                            Pittsburgh, PA 15213
+                        </li>
+                        </ul>
+                    </section>
+                        
+
+                <!-- Footer -->
+                    <footer id="footer">
+                        <p class="copyright">
+                            © 2025 HMHI Lab. All rights reserved.<br />
+                            Template design by <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a>
+                        </p>
+                    </footer>
+
             </div>
         </div>
     </div>
-
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
