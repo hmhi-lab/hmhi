@@ -2331,6 +2331,6 @@ button,
 
 @media screen and (max-width: 736px) {
   #header .logo {
-    display: none;
+    display: none !important;
   }
 }
