@@ -260,3 +260,17 @@
 			});
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function () {
+	const slides = document.querySelectorAll('#carousel img');
+	if (slides.length === 0) return;
+  
+	let current = 0;
+  
+	setInterval(() => {
+	  slides[current].style.opacity = 0;
+	  current = (current + 1) % slides.length;
+	  slides[current].style.opacity = 1;
+	}, 2500);
+  });
+  
