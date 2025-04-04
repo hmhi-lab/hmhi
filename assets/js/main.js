@@ -271,6 +271,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	  slides[current].style.opacity = 0;
 	  current = (current + 1) % slides.length;
 	  slides[current].style.opacity = 1;
-	}, 2500);
+	}, 4000);
   });
   
