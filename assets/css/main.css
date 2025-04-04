@@ -2330,7 +2330,11 @@ button,
 }
 
 @media screen and (max-width: 736px) {
-  #header .logo {
+  #header a.logo {
+    font-size: 0 !important;
+  }
+
+  #header a.logo strong {
     display: none !important;
   }
 }
