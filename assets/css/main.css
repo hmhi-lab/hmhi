@@ -2275,3 +2275,11 @@ button,
 .sans-serif-heading {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.member-name {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  flex-wrap: wrap;
+}
+
