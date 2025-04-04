@@ -2085,6 +2085,7 @@ button,
     flex: 1;
     margin-bottom: 0; }
   #header .logo {
+    color: inherit !important;
     border-bottom: 0;
     color: inherit;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2326,4 +2327,10 @@ button,
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 736px) {
+  #header .logo {
+    display: none;
+  }
 }
