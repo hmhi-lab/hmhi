@@ -4,4 +4,7 @@ etc/
 assets/css/main_Montserrat.css
 assets/css/main_opensans.css
 
+bin/
+test/
 index_test.html
+download-resources.ps1
