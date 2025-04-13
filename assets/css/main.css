@@ -2360,20 +2360,18 @@ button,
 .professor-header {
   display: flex;
   align-items: center; 
-  flex-wrap: wrap;
   justify-content: space-between; 
   gap: 2rem;             
   margin-bottom: 2rem;
 }
 
 .professor-info {
-  flex: 1 1 300px;
+  flex: 1;        
 }
 
 .professor-photo {
   width: 250px;           
-  height: auto;    
-  flex: 0 0 200px;        
+  height: auto;            
   border-radius: 2%;       
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -2390,4 +2388,28 @@ button,
 
 .professor-links-text a:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .professor-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .professor-info {
+    flex: 1 1 100%;
+    padding: 0 1rem;
+  }
+
+  .professor-photo {
+    width: 70%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .professor-links-text {
+    font-size: 0.9rem;
+  }
 }
