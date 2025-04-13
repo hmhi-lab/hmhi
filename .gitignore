@@ -4,6 +4,7 @@ etc/
 assets/css/main_Montserrat.css
 assets/css/main_opensans.css
 
+video/
 bin/
 test/
 index_test.html
