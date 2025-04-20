@@ -15,11 +15,11 @@ This repository contains the source code for the HMHI Lab website.
 
 ---
 
-### 1. Update Your Member Info (👤 [members.html](https://hmhi-lab.github.io/hmhi/members.html))
+### Update Your Member Info (👤 [members.html](https://hmhi-lab.github.io/hmhi/members.html))
 
-1. Open `members.html`
-2. Search your name (Ctrl+F)
-3. Edit the block that looks like this:
+- Open `members.html`
+- Search your name (Ctrl+F)
+- Edit your info in the block below:
 
 ```html
 <div class="col-3 col-12-small">
@@ -38,17 +38,9 @@ This repository contains the source code for the HMHI Lab website.
 </div>
 ```
 
-4. Then run the following commands:
-
-```bash
-git add .
-git commit -m "Update member info"
-git push
-```
-
 ---
 
-### 2. Update Publications (📚 [publications.html](https://hmhi-lab.github.io/hmhi/publications.html))
+### Update Publications (📚 [publications.html](https://hmhi-lab.github.io/hmhi/publications.html))
 
 - Open `publications.html`
 - Add or edit your publication entries
@@ -56,7 +48,7 @@ git push
 
 ---
 
-### 3. Update Research Projects (🔬 [research.html](https://hmhi-lab.github.io/hmhi/research.html))
+### Update Research Projects (🔬 [research.html](https://hmhi-lab.github.io/hmhi/research.html))
 
 - Open `research.html`
 - Add or modify research `<article>` blocks. Example:
@@ -76,12 +68,12 @@ git push
 
 ---
 
-### 4. Update News & Events (📰 [news.html](https://hmhi-lab.github.io/hmhi/news.html))
+### Update News & Events (📰 [news.html](https://hmhi-lab.github.io/hmhi/news.html))
 
 - Open `news.html`
 - Add or edit news `<article>` blocks.
 
-#### 🔸 Without link:
+#### Without link:
 
 ```html
 <article>
@@ -91,7 +83,7 @@ git push
 </article>
 ```
 
-#### 🔸 With link:
+#### With link:
 
 ```html
 <article>
@@ -107,6 +99,26 @@ git push
 ```
 
 - Keep entries in reverse chronological order (latest on top)
+
+---
+
+## How to Commit & Push
+
+After you edit and save files, **always commit with a clear and specific message**.  
+Use the following commands:
+
+```bash
+git add .
+
+git commit -m "Update member info"       # for member info updates
+git commit -m "Update publications"       # for publications
+git commit -m "Update research projects"  # for research section
+git commit -m "Update news"               # for news section
+
+git push
+```
+
+Please **describe what you changed** in your commit message.
 
 ---
 
