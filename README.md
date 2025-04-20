@@ -123,3 +123,5 @@ Please **describe what you changed** in your commit message.
 ---
 
 Feel free to update other tabs and pages as needed!
+
+If you don’t have permission to edit the files, please contact Seongeun (seongeup@andrew.cmu.edu).
