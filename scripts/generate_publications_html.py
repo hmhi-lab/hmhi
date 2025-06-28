@@ -2,11 +2,11 @@ import json
 import re
 
 CATEGORY_COLOR_MAP = {
-    "bridge_inspection": "#845EF7",
-    "flooding": "#228BE6",
-    "heavy_duty": "#E8590C",
-    "manufacturing": "#D6336C",
-    "npp": "#FF922B"
+    "Bridge Inspection": "#845EF7",
+    "Flooding": "#228BE6",
+    "Heavy Duty": "#E8590C",
+    "Manufacturing": "#D6336C",
+    "Nuclear Operation": "#FF922B"
 }
 
 GOOGLE_SCHOLAR_HTML = """

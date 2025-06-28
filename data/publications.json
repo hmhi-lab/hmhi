@@ -6,8 +6,7 @@
     "year": 2025,
     "link": "https://www.elspub.com/papers/j/1878199321429590016",
     "tags": ["inspection"],
-    "categories": [
-    ]
+    "categories": []
   },
   {
     "title": "Evaluating Contributions of Emerging Technologies to Civil Infrastructure System Resilience. I: A Decision-Making Workflow",
@@ -34,8 +33,7 @@
     "year": 2025,
     "link": "https://arxiv.org/abs/2504.03014",
     "tags": ["inspection"],
-    "categories": [
-    ]
+    "categories": []
   },
   {
     "title": "Automated Image-Based Identification and Consistent Classification of Fire Patterns with Quantitative Shape Analysis and Spatial Location Identification",
@@ -44,8 +42,7 @@
     "year": 2025,
     "link": "https://doi.org/10.1016/j.dibe.2025.100612",
     "tags": ["fire"],
-    "categories": [
-    ]
+    "categories": []
   },
   {
     "title": "Transforming Architecture, Engineering, and Construction (AEC) Workflows with Generative AI: Opportunities, Risks, and Future Directions",
@@ -90,9 +87,7 @@
     "year": 2024,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485286.068",
     "tags": ["manufacturing"],
-    "categories": [
-      "manufacturing"
-    ]
+    "categories": ["Manufacturing"]
   },
   {
     "title": "Image-Based 3D Reconstruction for Multi-Scale Civil and Infrastructure Projects: A Review from 2012 to 2022 with New Perspective from Deep Learning Methods",
@@ -164,8 +159,7 @@
     "year": 2023,
     "link": "https://www.sciencedirect.com/science/article/pii/S2666165923000492",
     "tags": ["bridge_inspection"],
-    "categories": ["bridge_inspection"
-    ]
+    "categories": ["Bridge Inspection"]
   },
   {
     "title": "Dynamic human systems risk prognosis and control of lifting operations during prefabricated building construction",
@@ -202,9 +196,7 @@
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485224.072",
     "tags": [
       "bridge_inspection"],
-    "categories": [
-      "bridge_inspection"
-    ]
+    "categories": ["Bridge Inspection"]
   },
   {
     "title": "Optimizing HVAC Systems for Energy Efficiency and Comfort: A Scalable and Robust Multi-Zone Control Approach with Uncertainty Considerations",
@@ -222,9 +214,7 @@
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485231.081",
     "tags": ["digital_twin"],
-    "categories": [
-      "digital_twin"
-    ]
+    "categories": []
   },
   {
     "title": "Enhancing Nuclear Power Plant Operations: An Ontology for Conditional Tasks",
@@ -233,9 +223,7 @@
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485231.071",
     "tags": ["npp", "ontology"],
-    "categories": [
-      "npp"
-    ]
+    "categories": ["Nuclear Operation"]
   },
   {
     "title": "Non-Invasive 3D Imaging and Sensor Data-Based Diagnosis of Water Treatment Plant Filter Integrity",
@@ -244,8 +232,7 @@
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485163.107",
     "tags": ["inspection"],
-    "categories": [
-    ]
+    "categories": []
   },
   {
     "title": "An Extensible Construction Ontology to Guide Job-Site Sensing and Support Information Management",

@@ -2482,6 +2482,11 @@ button,
   transform: scale(1.1); 
 }
 
+.researcher-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
 .researcher-card .name {
   margin-top: 0.8rem;
   font-weight: 600;
@@ -2536,4 +2541,44 @@ body {
   user-select: none;      
   pointer-events: none;   
   -webkit-user-drag: none; 
+}
+
+.publication-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+}
+
+.publication-card {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+  color: #3d4449;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.publication-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.publication-card .card-title a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3d4449;
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.publication-card .card-title a:hover {
+  color: #4C6EF5;
+}
+
+.publication-card .card-meta {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-weight: 400;
 }
