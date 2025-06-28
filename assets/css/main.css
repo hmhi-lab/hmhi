@@ -2526,3 +2526,14 @@ body {
     display: none;
   }
 }
+
+.article-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  display: block;
+
+  user-select: none;      
+  pointer-events: none;   
+  -webkit-user-drag: none; 
+}
