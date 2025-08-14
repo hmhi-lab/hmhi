@@ -1894,8 +1894,9 @@ button,
   @media screen and (max-width: 736px) {
     #main > .inner {
       padding: 0 2em 0.1em 2em ; }
-      #main > .inner > section {
-        padding: 3em 0 1em 0 ; } }
+    #main > .inner > section {
+       padding: 1em 0 1em 0; }
+   }
 
 /* Sidebar */
 #search form {
@@ -2114,8 +2115,7 @@ button,
     #header {
       padding-top: 5em; } }
   @media screen and (max-width: 736px) {
-    #header {
-      padding-top: 6.5em; }
+  #header { padding-top: 4em; padding-bottom: .75em; }
       #header .logo {
         font-size: 1.25em;
         margin: 0; }
@@ -2128,89 +2128,91 @@ button,
 
 /* Banner */
 #banner {
-  padding: 6em 0 4em 0 ;
+  padding: 6em 0 4em 0;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
-  display: flex; }
-  #banner h1 {
-    margin-top: -0.125em; }
+  display: flex;
+}
+#banner h1 { margin-top: -0.125em; }
+
+#banner .content {
+  -moz-flex-grow: 1;  -webkit-flex-grow: 1;  -ms-flex-grow: 1;  flex-grow: 1;
+  -moz-flex-shrink: 1;-webkit-flex-shrink: 1;-ms-flex-shrink: 1;flex-shrink: 1;
+  width: 50%;
+}
+
+#banner .image {
+  -moz-flex-grow: 0;  -webkit-flex-grow: 0;  -ms-flex-grow: 0;  flex-grow: 0;
+  -moz-flex-shrink: 0;-webkit-flex-shrink: 0;-ms-flex-shrink: 0;flex-shrink: 0;
+  display: block;
+  margin: 0 0 2em 4em;
+  width: 50%;
+}
+#banner .image img {
+  height: 100%;
+  -moz-object-fit: cover; -webkit-object-fit: cover; -ms-object-fit: cover; object-fit: cover;
+  -moz-object-position: center; -webkit-object-position: center; -ms-object-position: center; object-position: center;
+  width: 100%;
+}
+
+/* Portrait (mobile-first): tighten gap between header and banner */
+@media screen and (orientation: portrait) {
+  /* Stick banner to header on mobile */
+  #banner {
+    padding-top: 0 !important;
+    -moz-flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  /* Remove top divider/spacing when banner follows #header */
+  #main > .inner > header#header + section#banner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: 0 !important;
+  }
+  #main > .inner > header#header + section#banner::before {
+    content: none !important;
+    display: none !important;
+  }
+
+  /* Minor text tweaks for mobile */
+  #banner h1 br { display: none; }
+
   #banner .content {
-    -moz-flex-grow: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-grow: 1;
-    flex-grow: 1;
-    -moz-flex-shrink: 1;
-    -webkit-flex-shrink: 1;
-    -ms-flex-shrink: 1;
-    flex-shrink: 1;
-    width: 50%; }
+    -moz-flex-grow: 0;  -webkit-flex-grow: 0;  -ms-flex-grow: 0;  flex-grow: 0;
+    -moz-flex-shrink: 0;-webkit-flex-shrink: 0;-ms-flex-shrink: 0;flex-shrink: 0;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  /* Clean margin typo and fit image block on mobile */
   #banner .image {
-    -moz-flex-grow: 0;
-    -webkit-flex-grow: 0;
-    -ms-flex-grow: 0;
-    flex-grow: 0;
-    -moz-flex-shrink: 0;
-    -webkit-flex-shrink: 0;
-    -ms-flex-shrink: 0;
-    flex-shrink: 0;
-    display: block;
-    margin: 0 0 2em 4em;
-    width: 50%; }
-    #banner .image img {
-      height: 100%;
-      -moz-object-fit: cover;
-      -webkit-object-fit: cover;
-      -ms-object-fit: cover;
-      object-fit: cover;
-      -moz-object-position: center;
-      -webkit-object-position: center;
-      -ms-object-position: center;
-      object-position: center;
-      width: 100%; }
-  @media screen and (orientation: portrait) {
-    #banner {
-      padding-top: 2em !important;
-      -moz-flex-direction: column-reverse;
-      -webkit-flex-direction: column-reverse;
-      -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse; }
-      #banner h1 br {
-        display: none; }
-      #banner .content {
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-        -moz-flex-shrink: 0;
-        -webkit-flex-shrink: 0;
-        -ms-flex-shrink: 0;
-        flex-shrink: 0;
-        width: 100%;
-        margin-bottom: 0em; }
-      #banner .image {
-        -moz-flex-grow: 0;
-        -webkit-flex-grow: 0;
-        -ms-flex-grow: 0;
-        flex-grow: 0;
-        -moz-flex-shrink: 0;
-        -webkit-flex-shrink: 0;
-        -ms-flex-shrink: 0;
-        flex-shrink: 0;
-        margin: 0 0 4em 0;
-        height: 25em;
-        max-height: 50vh;
-        min-height: 18em;
-        width: 100%; } 
-      }
-      
-  @media screen and (orientation: portrait) and (max-width: 480px) {
-    #banner .image {
-      max-height: 35vh; } 
-    #carousel {
-        display: none !important;
-      }
-    }
+    -moz-flex-grow: 0;  -webkit-flex-grow: 0;  -ms-flex-grow: 0;  flex-grow: 0;
+    -moz-flex-shrink: 0;-webkit-flex-shrink: 0;-ms-flex-shrink: 0;flex-shrink: 0;
+    margin: 0;
+    height: 25em; max-height: 50vh; min-height: 18em;
+    width: 100%;
+  }
+}
+
+/* Extra-small portrait: limit image height and hide carousel */
+@media screen and (orientation: portrait) and (max-width: 480px) {
+  #banner .image { max-height: 35vh; }
+  #carousel { display: none !important; }
+}
+
+/* Mobile common: remove container/header top spacing */
+@media screen and (max-width: 736px) {
+  #main > .inner { padding-top: 0 !important; }
+  #main > .inner > header#header { margin-bottom: 0 !important; padding-bottom: 0 !important; }
+  
+  #banner .content { padding-top: 2rem; } /* add tiny top space above h1 */
+  #banner h1 { margin-top: 0; }            /* override global -0.125em */
+}
+
 
 /* Footer */
 #footer .copyright {
@@ -2367,11 +2369,6 @@ button,
   }
 }
 
-#banner {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-}
 
 #bg-video {
   position: fixed;
