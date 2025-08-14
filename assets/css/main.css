@@ -2115,7 +2115,7 @@ button,
     #header {
       padding-top: 5em; } }
   @media screen and (max-width: 736px) {
-  #header { padding-top: 4em; padding-bottom: .75em; }
+  #header { padding-top: 4.5em; padding-bottom: .75em; }
       #header .logo {
         font-size: 1.25em;
         margin: 0; }
@@ -2514,6 +2514,11 @@ body {
   overflow: hidden;
 }
 
+#carousel .image-wrapper{ position:relative; width:200%; aspect-ratio:16/9; overflow:hidden; }
+#carousel .image-wrapper img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+
+
 #carousel-video {
   position: absolute;
   top: 0;
@@ -2579,3 +2584,20 @@ body {
   color: #6c757d;
   font-weight: 400;
 }
+
+
+/* Make media embed responsive */
+.media-section .video-container iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;  /* keep 16:9 */
+}
+
+/* Desktop: allow wider video */
+@media (min-width: 981px) {
+  .media-section .video-container {
+    width: min(1100px, 90vw); /* up to ~1100px */
+    margin: 0 auto;          /* center */
+  }
+}
+
