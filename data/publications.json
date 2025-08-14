@@ -1,0 +1,264 @@
+[
+  {
+    "title": "Multi-dimensional data interpretation for defective filter identification",
+    "authors": "P. Liu, J. Xiao, P. Tang",
+    "journal": "Smart Construction",
+    "year": 2025,
+    "link": "https://www.elspub.com/papers/j/1878199321429590016",
+    "tags": ["inspection"],
+    "categories": []
+  },
+  {
+    "title": "Evaluating Contributions of Emerging Technologies to Civil Infrastructure System Resilience. I: A Decision-Making Workflow",
+    "authors": "Z. Chen, K. Soga, P. G. Hubbard, C. Ford, M. R. Taha, D. H. Murcia, P. Tang, B. Glisic, O. Ozbulut, L. Comfort",
+    "journal": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems",
+    "year": 2025,
+    "link": "https://ascelibrary.org/doi/full/10.1061/AJRUA6.RUENG-1494",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Evaluating Contributions of Emerging Technologies to Civil Infrastructure System Resilience. II: Case Studies",
+    "authors": "K. Soga, Z. Chen, P. G. Hubbard, C. Ford, M. R. Taha, Daniel H. Murcia, P. Tang, B. Glisic, Osman Ozbulut, Na Lu, Yen-Fang Su, L. Comfort",
+    "journal": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems",
+    "year": 2025,
+    "link": "https://ascelibrary.org/doi/full/10.1061/AJRUA6.RUENG-1495",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Quantifying Personality in Human-Drone Interactions for Building Heat Loss Inspection with Virtual Reality Training",
+    "authors": "P. Liu, P. Tang, J. Liu, Y. Hou",
+    "journal": "arXiv",
+    "year": 2025,
+    "link": "https://arxiv.org/abs/2504.03014",
+    "tags": ["inspection"],
+    "categories": []
+  },
+  {
+    "title": "Automated Image-Based Identification and Consistent Classification of Fire Patterns with Quantitative Shape Analysis and Spatial Location Identification",
+    "authors": "P. Liu, S. Ni, S. Stanislav, P. Tang",
+    "journal": "Developments in the Built Environment",
+    "year": 2025,
+    "link": "https://doi.org/10.1016/j.dibe.2025.100612",
+    "tags": ["fire"],
+    "categories": []
+  },
+  {
+    "title": "Transforming Architecture, Engineering, and Construction (AEC) Workflows with Generative AI: Opportunities, Risks, and Future Directions",
+    "authors": "R. Xiong, Y. Netser, P. Tang, B. Li, J. Hwang",
+    "journal": "Engineering, and Construction (AEC) Workflows with Generative AI: Opportunities, Risks, and Future Directions",
+    "year": 2024,
+    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168581",
+    "tags": ["generative_ai"],
+    "categories": []
+  },
+  {
+    "title": "Automated Flatness Assessment for Large Quantities of Full-Scale Precast Beams Using Laser Scanning",
+    "authors": "C. Xu, W. Xiong, P. Tang, C.S. Cai",
+    "journal": "Computer-Aided Civil and Infrastructure Engineering",
+    "year": 2024,
+    "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/mice.13162",
+    "tags": ["laser_scanning"],
+    "categories": []
+  },
+  {
+    "title": "Generalized building energy and carbon emissions benchmarking with post-prediction analysis",
+    "authors": "T. Li, T. Liu, A.O. Sawyer, P. Tahg, V. Loftness, Y. Lu, J. Xie",
+    "journal": "Developments in the Built Environment",
+    "year": 2024,
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666165924000012",
+    "tags": ["carbon"],
+    "categories": []
+  },
+  {
+    "title": "Workers and AI in the construction and operation of civil infrastructures",
+    "authors": "J. Xing, Z. Sun, P. Tang",
+    "journal": "Handbook of Artificial Intelligence at Work",
+    "year": 2024,
+    "link": "https://www.elgaronline.com/edcollchap/book/9781800889972/book-part-9781800889972-16.xml",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Stabilizing Manufacturing Lines of Customized Building Mechanical Components under Uncertain Machinery Deterioration",
+    "authors": "M. Dong, P. Tang, R. Xiong",
+    "journal": "Construction Research Congress",
+    "year": 2024,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485286.068",
+    "tags": ["manufacturing"],
+    "categories": ["Manufacturing"]
+  },
+  {
+    "title": "Image-Based 3D Reconstruction for Multi-Scale Civil and Infrastructure Projects: A Review from 2012 to 2022 with New Perspective from Deep Learning Methods",
+    "authors": "Y. Lu, S. Wang, S. Fan, J. Lu, P. Li, P. Tang",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2024,
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S1474034623003968",
+    "tags": ["3d_reconstruction"],
+    "categories": []
+  },
+  {
+    "title": "Calibrating Subjective Data Biases and Model Predictive Uncertainties in Machine Learning-Based Thermal Perception Predictions",
+    "authors": "R. Xiong, Y. Shi, H. Jing, W. Liang, Y. Nakahira, P. Tang",
+    "journal": "Building and Environment, 2024",
+    "year": 2024,
+    "link": "https://www.sciencedirect.com/science/article/pii/S0360132323010806",
+    "tags": ["hvac"],
+    "categories": []
+  },
+  {
+    "title": "Physics-based model and data dual-driven approaches for predictive evacuation",
+    "authors": "Y. Zhang, Z. Yan, H. Zhu, P. Tang",
+    "journal": "Developments in the Built Environment",
+    "year": 2023,
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666165923001515",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Process-oriented guidelines for systematic improvement of supervised learning research in construction engineering",
+    "authors": "V. Asghari, M.H. Kazemi, M. Shahrokhishahraki, P. Tang, A. Alvanchi, S. Hsu",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2023,
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S1474034623003439",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "A metaheuristic-guided machine learning approach for concrete strength prediction with high mix design variability using ultrasonic pulse velocity data",
+    "authors": "S. Selcuk, P. Tang",
+    "journal": "Developments in the Built Environment",
+    "year": 2023,
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666165923001023",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Human-Machine Intelligence",
+    "authors": "C. Zhang, J. Kim, J. Jeon, J. Xing, C.R. Ahn, P. Tang, H. Cai",
+    "journal": "Civil Engineering Magazine Archive",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/ciegag.0001687",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Discovering factors that influence the use of augmented reality for communication on active highway construction sites",
+    "authors": "R.E. Kassis, S.K. Ayer, M.E. Asmar, P. Tang",
+    "journal": "Transportation research record",
+    "year": 2023,
+    "link": "https://journals.sagepub.com/doi/abs/10.1177/03611981221131311",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Quantifying the reliability of defects located by bridge inspectors through human observation behavioral analysis",
+    "authors": "P. Liu, Y. Shi, R. Xiong, P. Tang",
+    "journal": "Developments in the Built Environment",
+    "year": 2023,
+    "link": "https://www.sciencedirect.com/science/article/pii/S2666165923000492",
+    "tags": ["bridge_inspection"],
+    "categories": ["Bridge Inspection"]
+  },
+  {
+    "title": "Dynamic human systems risk prognosis and control of lifting operations during prefabricated building construction",
+    "authors": "Z. Sum, Z. Zhu, R. Xiong, P. Tang, Z. Liu",
+    "journal": "Developments in the Built Environment",
+    "year": 2023,
+    "link": "https://www.sciencedirect.com/science/article/pii/S266616592300025X",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Characterizing data sharing in civil infrastructure engineering: Current practice, future vision, barriers, and promotion strategies",
+    "authors": "Y. Wang, P. Tang, K. Liu, J. Cai, R. Ren, J.J. Lin, H. Cai, Z. Zhang, N.E. Gohary, M. Berges, M.G. Fard",
+    "journal": "Journal of Computing in Civil Engineering",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/JCCEE5.CPENG-5077",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Proactive Improvements of Standard Taxi Routes in Airports Based on Data-Driven Simulation and Reinforcement Learning",
+    "authors": "Y. Wang, P. Tang",
+    "journal": "Transportation Research Board 102nd Annual MeetingTransportation Research Board",
+    "year": 2023,
+    "link": "https://trid.trb.org/View/2117809",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Bridge Inspection Strategy Analysis through Human-Drone Interaction Games",
+    "authors": "P. Liu, B. Sun, Y. Wang, P. Tang",
+    "journal": "Computing in Civil Engineering",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485224.072",
+    "tags": [
+      "bridge_inspection"],
+    "categories": ["Bridge Inspection"]
+  },
+  {
+    "title": "Optimizing HVAC Systems for Energy Efficiency and Comfort: A Scalable and Robust Multi-Zone Control Approach with Uncertainty Considerations",
+    "authors": "R. Xiong, H. Jing, M. Li, Y. Shi, T. Miki, T. Hatanaka, Y. Nakahira, P. Tang",
+    "journal": "Computing in Civil Engineering",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485248.118",
+    "tags": ["hvac"],
+    "categories": []
+  },
+  {
+    "title": "Knowledge Sharing and Workforce Engagement Using Digital Twins-Based Simulations and Extended Reality for Process Operations",
+    "authors": "P. Liu, J. Xing, Y. Li, C. Miller, P. Tang",
+    "journal": "Computing in Civil Engineering",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485231.081",
+    "tags": ["digital_twin"],
+    "categories": []
+  },
+  {
+    "title": "Enhancing Nuclear Power Plant Operations: An Ontology for Conditional Tasks",
+    "authors": "J. X. ing, P. Liu, P. Tang, R.L. Boring, T.A. Ulrich, R. Lew, G. Edward Gibson Jr",
+    "journal": "Computing in Civil Engineering",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485231.071",
+    "tags": ["npp", "ontology"],
+    "categories": ["Nuclear Operation"]
+  },
+  {
+    "title": "Non-Invasive 3D Imaging and Sensor Data-Based Diagnosis of Water Treatment Plant Filter Integrity",
+    "authors": "P. Liu, J. Xing, J. Xiao, C. Miller, P. Tang",
+    "journal": "ASCE Inspire",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485163.107",
+    "tags": ["inspection"],
+    "categories": []
+  },
+  {
+    "title": "An Extensible Construction Ontology to Guide Job-Site Sensing and Support Information Management",
+    "authors": "R. Ren, J. Zhang, P. Tang",
+    "journal": "ISARC",
+    "year": 2023,
+    "link": "https://www.proquest.com/openview/6b5f857e61291b1bbbb886a9e4d7dca9/1?cbl=1646340&pq-origsite=gscholar",
+    "tags": ["ontology"],
+    "categories": []
+  },
+  {
+    "title": "Predicting separation errors of air traffic controllers through integrated sequence analysis of multimodal behaviour indicators",
+    "authors": "R. Xiong, Y. Wang, P. Tang, N.J. Cooke, S.V. Ligda, C.S. Lieber, Y. Liu",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2023,
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034623000228",
+    "tags": ["aviation"],
+    "categories": []
+  },
+  {
+    "title": "Fast and reliable map matching from large-scale noisy positioning records",
+    "authors": "Y. Wang, R. Xiong, P. Tang, Y. Liu",
+    "journal": "Journal of Computing in Civil Engineering",
+    "year": 2023,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/%28ASCE%29CP.1943-5487.0001054",
+    "tags": [],
+    "categories": []
+  }
+]
