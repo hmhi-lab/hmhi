@@ -1,25 +1,24 @@
-
 # HMHI Lab Website
 
 This repository contains the source code for the HMHI Lab website.  
-🔗 Visit the site here: [https://hmhi-lab.github.io/hmhi/](https://hmhi-lab.github.io/hmhi/)
+🔗 Visit the site here: [http://hmhi-lab.net/](http://hmhi-lab.net/)
 
 ---
 
 ## 🛠️ How to Update the Website
 
-🔗 Live site: [https://hmhi-lab.github.io/hmhi/](https://hmhi-lab.github.io/hmhi/)
+🔗 Live site: [http://hmhi-lab.net/](http://hmhi-lab.net/)
 
-> Note: If you're familiar with Git, it's recommended (but optional) to create a new branch and open a Pull Request (PR) instead of committing directly to `main`.  
+> **Note:** If you're familiar with Git, it's recommended (but optional) to create a new branch and open a Pull Request (PR) instead of committing directly to `main`.  
 > For small edits like text or member info updates, direct commits are also fine.
 
 ---
 
-### Update Your Member Info (👤 [members.html](https://hmhi-lab.github.io/hmhi/members.html))
+### Update Your Member Info (👤 [members.html](http://hmhi-lab.net/members.html))
 
-- Open `members.html`
-- Search your name (Ctrl+F)
-- Edit your info in the block below:
+1. Open `members.html`
+2. Search your name (Ctrl+F)
+3. Edit your info in the block below:
 
 ```html
 <div class="col-3 col-12-small">
@@ -40,7 +39,7 @@ This repository contains the source code for the HMHI Lab website.
 
 ---
 
-### Update Publications (📚 [publications.html](https://hmhi-lab.github.io/hmhi/publications.html))
+### Update Publications (📚 [publications.html](http://hmhi-lab.net/publications.html))
 
 - Open `publications.html`
 - Add or edit your publication entries
@@ -48,7 +47,7 @@ This repository contains the source code for the HMHI Lab website.
 
 ---
 
-### Update Research Projects (🔬 [research.html](https://hmhi-lab.github.io/hmhi/research.html))
+### Update Research Projects (🔬 [research.html](http://hmhi-lab.net/research.html))
 
 - Open `research.html`
 - Add or modify research `<article>` blocks. Example:
@@ -64,11 +63,12 @@ This repository contains the source code for the HMHI Lab website.
 </article>
 ```
 
-- To link to a separate detail page, create a new file like `research_<TOPIC>.html` and link it. Or, if not needed, just use `#` in the code instead of `research_<TOPIC>.html`.
+- To link to a separate detail page, create a new file like `research_<TOPIC>.html` and link it.  
+  If not needed, use `#` instead of `research_<TOPIC>.html`.
 
 ---
 
-### Update News & Events (📰 [news.html](https://hmhi-lab.github.io/hmhi/news.html))
+### Update News & Events (📰 [news.html](http://hmhi-lab.net/news.html))
 
 - Open `news.html`
 - Add or edit news `<article>` blocks.
@@ -104,15 +104,14 @@ This repository contains the source code for the HMHI Lab website.
 
 ## How to Commit & Push
 
-After you edit and save files, **always commit with a clear and specific message**.  
-Use the following commands:
+After editing and saving files, **always commit with a clear and specific message**:
 
 ```bash
 git add .
 
 git commit -m "Update member info"       # for member info updates
-git commit -m "Update publications"       # for publications
-git commit -m "Update research projects"  # for research section
+git commit -m "Update publications"      # for publications
+git commit -m "Update research projects" # for research section
 git commit -m "Update news"               # for news section
 
 git push
@@ -124,6 +123,7 @@ Please **describe what you changed** in your commit message.
 
 Feel free to update other tabs and pages as needed!
 
-You can edit the website files directly in this repository: https://github.com/hmhi-lab/hmhi
+You can edit the website files directly in this repository:  
+[https://github.com/hmhi-lab/hmhi](https://github.com/hmhi-lab/hmhi)
 
-If you don’t have permission to edit the files, please contact Seongeun (seongeup@andrew.cmu.edu).
+If you don’t have permission to edit the files, please contact **Seongeun** (seongeup@andrew.cmu.edu).
