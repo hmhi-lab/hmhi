@@ -19,7 +19,7 @@
     <loc>https://hmhi-lab.net/research.html</loc>
   </url>
   <url>
-    <loc>https://hmhi-lab.net/news.html</loc>
+    <loc>https://hmhi-lab.net/news_page1.html</loc>
   </url>
   <url>
     <loc>https://hmhi-lab.net/publications.html</loc>
@@ -64,7 +64,10 @@
     <loc>https://hmhi-lab.net/test/separk/research01.html</loc>
   </url>
   <url>
-    <loc>https://hmhi-lab.net/test/separk/news.html</loc>
+    <loc>https://hmhi-lab.net/test/separk/news_page1.html</loc>
+  </url>
+  <url>
+    <loc>https://hmhi-lab.net/test/separk/news_page2.html</loc>
   </url>
   <url>
     <loc>https://hmhi-lab.net/test/separk/templates/elements.html</loc>
