@@ -2161,7 +2161,7 @@ button,
 @media screen and (orientation: portrait) {
   /* Stick banner to header on mobile */
   #banner {
-    padding-top: 1.5em !important;
+    padding-top: 0.7em !important;
     -moz-flex-direction: column-reverse;
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
@@ -2171,7 +2171,7 @@ button,
   /* Remove top divider/spacing when banner follows #header */
   #main > .inner > header#header + section#banner {
     margin-top: 0 !important;
-    padding-top: 1.5em !important;
+    padding-top: 0.7em !important;
     border-top: 0 !important;
   }
   #main > .inner > header#header + section#banner::before {
@@ -2207,7 +2207,7 @@ button,
 
 /* Mobile common: remove container/header top spacing */
 @media screen and (max-width: 736px) {
-  #main > .inner { padding-top: 1.5em !important; }
+  #main > .inner { padding-top: 0.7em !important; }
   #main > .inner > header#header { margin-bottom: 0 !important; padding-bottom: 0 !important; }
   
   #banner .content { padding-top: 2rem; } /* add tiny top space above h1 */
