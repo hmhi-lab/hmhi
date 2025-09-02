@@ -2623,3 +2623,4 @@ body {
 @media (max-width: 736px) {
   .features .icon { display: none !important; }
   .features article .content { margin-left: 0 !important; } /*hide research tab icon only mobile*/
+}
