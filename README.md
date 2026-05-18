@@ -67,38 +67,62 @@ This repository contains the source code for the HMHI Lab website.
   If not needed, use `#` instead of `research_<TOPIC>.html`.
 
 ---
+### Update News & Events (📰 [news_page.html](http://hmhi-lab.net/news_page.html))
 
-### Update News & Events (📰 [news.html](http://hmhi-lab.net/news.html))
+News items are managed through JavaScript data files.  
+Do **not** edit the news articles directly in `news_page.html`.
 
-- Open `news.html`
-- Add or edit news `<article>` blocks.
+To add or edit news:
+
+1. Open `assets/js/news-data.js`
+2. Add a new news item at the top of the `NEWS_ITEMS` list
+3. Keep entries in reverse chronological order, latest on top
 
 #### Without link:
 
-```html
-<article>
-    <h3><NEWS_TITLE></h3>
-    <p><NEWS_DESCRIPTION></p>
-    <p class="date"><DATE></p>
-</article>
+```javascript
+{
+    titleHtml: "NEWS_TITLE",
+    bodyHtml: "NEWS_DESCRIPTION",
+    date: "DATE"
+},
 ```
 
-#### With link:
+#### With link in the title:
 
-```html
-<article>
-    <h3>
-        <a href="https://<NEWS_LINK>" target="_blank" rel="noopener">
-            <NEWS_TITLE>
+```javascript
+{
+    titleHtml: `
+        <a href="https://NEWS_LINK" target="_blank" rel="noopener">
+            NEWS_TITLE
             <span class="fas fa-link" style="margin-left: 8px;"></span>
         </a>
-    </h3>
-    <p><NEWS_DESCRIPTION></p>
-    <p class="date"><DATE></p>
-</article>
+    `,
+    bodyHtml: "NEWS_DESCRIPTION",
+    date: "DATE"
+},
 ```
 
-- Keep entries in reverse chronological order (latest on top)
+#### With links inside the description:
+
+```javascript
+{
+    titleHtml: "NEWS_TITLE",
+    bodyHtml: `
+        NEWS_DESCRIPTION with
+        <a href="https://LINK_URL" target="_blank" rel="noopener">linked text</a>.
+    `,
+    date: "DATE"
+},
+```
+
+The news page is automatically paginated by `assets/js/news-render.js`, so you only need to update `assets/js/news-data.js`.
+
+To change how many news items appear per page, edit this line in `assets/js/news-render.js`:
+
+```javascript
+const ITEMS_PER_PAGE = 6;
+```
 
 ---
 
