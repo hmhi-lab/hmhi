@@ -2,7 +2,7 @@
 // titleHtml and bodyHtml may include links or simple HTML.
 window.NEWS_ITEMS = [
     {
-        "titleHtml": "Ava Jahanbiglari Selected as Pennsylvania’s Student Representative for the IHEEP Conference",
+        "titleHtml": "Ava Jahan Biglari Selected as Pennsylvania’s Student Representative for the IHEEP Conference",
         "bodyHtml": "Ava was selected as Pennsylvania’s student representative for the IHEEP Conference in Austin, Texas, recognizing her research on heavy-duty vehicle safety through perception-to-risk modeling.",
         "date": "May 2026"
     },
