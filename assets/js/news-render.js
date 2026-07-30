@@ -11,10 +11,9 @@
         return page === 1 ? "news.html" : `news.html?page=${page}`;
     }
 
-    function renderNews() {
+    function renderNews(newsItems) {
         const posts = document.getElementById("news-posts");
         const pagination = document.getElementById("news-pagination");
-        const newsItems = window.NEWS_ITEMS || [];
 
         if (!posts || !pagination) return;
 
@@ -51,5 +50,22 @@
         pagination.innerHTML = prev + pages + next;
     }
 
-    document.addEventListener("DOMContentLoaded", renderNews);
+    function showError() {
+        const posts = document.getElementById("news-posts");
+        const pagination = document.getElementById("news-pagination");
+        if (!posts || !pagination) return;
+
+        posts.innerHTML = "<p>News could not be loaded. Please try again later.</p>";
+        pagination.innerHTML = "";
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch("data/news.json")
+            .then(function (response) {
+                if (!response.ok) throw new Error("Failed to load news");
+                return response.json();
+            })
+            .then(renderNews)
+            .catch(showError);
+    });
 })();

@@ -82,54 +82,46 @@ The sidebar is rendered across the main pages from this shared JavaScript file, 
 
 ### Update News & Events ([news.html](http://hmhi-lab.net/news.html))
 
-News items are managed through JavaScript data files.
+News items are managed through a JSON data file.
 Do **not** edit the news articles directly in `news.html`.
 
 To add or edit news:
 
-1. Open `assets/js/news-data.js`
-2. Add a new news item at the top of the `NEWS_ITEMS` list
+1. Open `data/news.json`
+2. Add a new news item at the top of the list
 3. Keep entries in reverse chronological order, latest on top
 
 #### Without link
 
-```javascript
+```json
 {
-    titleHtml: "NEWS_TITLE",
-    bodyHtml: "NEWS_DESCRIPTION",
-    date: "DATE"
-},
+    "titleHtml": "NEWS_TITLE",
+    "bodyHtml": "NEWS_DESCRIPTION",
+    "date": "DATE"
+}
 ```
 
 #### With link in the title
 
-```javascript
+```json
 {
-    titleHtml: `
-        <a href="https://NEWS_LINK" target="_blank" rel="noopener">
-            NEWS_TITLE
-            <span class="fas fa-link" style="margin-left: 8px;"></span>
-        </a>
-    `,
-    bodyHtml: "NEWS_DESCRIPTION",
-    date: "DATE"
-},
+    "titleHtml": "<a href=\"https://NEWS_LINK\" target=\"_blank\" rel=\"noopener\">NEWS_TITLE <span class=\"fas fa-link\" style=\"margin-left: 8px;\"></span></a>",
+    "bodyHtml": "NEWS_DESCRIPTION",
+    "date": "DATE"
+}
 ```
 
 #### With links inside the description
 
-```javascript
+```json
 {
-    titleHtml: "NEWS_TITLE",
-    bodyHtml: `
-        NEWS_DESCRIPTION with
-        <a href="https://LINK_URL" target="_blank" rel="noopener">linked text</a>.
-    `,
-    date: "DATE"
-},
+    "titleHtml": "NEWS_TITLE",
+    "bodyHtml": "NEWS_DESCRIPTION with <a href=\"https://LINK_URL\" target=\"_blank\" rel=\"noopener\">linked text</a>.",
+    "date": "DATE"
+}
 ```
 
-The news page is automatically paginated by `assets/js/news-render.js`, so you only need to update `assets/js/news-data.js`.
+The news page is automatically paginated by `assets/js/news-render.js`, so you only need to update `data/news.json`.
 
 To change how many news items appear per page, edit this line in `assets/js/news-render.js`:
 
