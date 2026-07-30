@@ -71,6 +71,15 @@ The publications page is rendered from `data/publications.json`, so you do not n
 
 ---
 
+### Update Sidebar Menu
+
+- Open `assets/js/sidebar-render.js`
+- Edit the shared menu or contact information there
+
+The sidebar is rendered across the main pages from this shared JavaScript file, so you do not need to edit each HTML page separately.
+
+---
+
 ### Update News & Events ([news.html](http://hmhi-lab.net/news.html))
 
 News items are managed through JavaScript data files.
