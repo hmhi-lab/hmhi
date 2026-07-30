@@ -42,9 +42,11 @@ Live site: [http://hmhi-lab.net/](http://hmhi-lab.net/)
 
 ### Update Publications ([publications.html](http://hmhi-lab.net/publications.html))
 
-- Open `publications.html`
-- Add or edit your publication entries
+- Open `data/publications.json`
+- Add or edit publication entries
 - Keep entries in reverse chronological order, latest on top
+
+The publications page is rendered from `data/publications.json`, so you do not need to edit publication entries directly in `publications.html`.
 
 ---
 

@@ -1,16 +1,79 @@
 [
   {
-    "title": "Multi-dimensional data interpretation for defective filter identification",
-    "authors": "P. Liu, J. Xiao, P. Tang",
-    "journal": "Smart Construction",
-    "year": 2025,
-    "link": "https://www.elspub.com/papers/j/1878199321429590016",
-    "tags": ["inspection"],
+    "title": "Explainable AI for CO2 emissions reduction in housing manufacturing: a review",
+    "authors": "M. Mora, P. Tang",
+    "journal": "AI in Civil Engineering",
+    "year": 2026,
+    "link": "https://link.springer.com/article/10.1007/s43503-026-00086-w",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "OpenConstruction: A Systematic Synthesis of Open Visual Data Sets for Data-Centric Intelligence in Construction Monitoring",
+    "authors": "R. Xiong, Y. Wang, J. Cai, K. Liu, Y. Zhu, P. Tang, N. El-Gohary",
+    "journal": "Journal of Computing in Civil Engineering",
+    "year": 2026,
+    "link": "https://ascelibrary.org/doi/full/10.1061/JCCEE5.CPENG-7313",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Multiobjective Runway Assignment Strategy for Integrated Airside Operations under Uncertainty",
+    "authors": "Y. Wang, R. Xiong, P. Tang, Y. Liu",
+    "journal": "Journal of Computing in Civil Engineering",
+    "year": 2026,
+    "link": "https://ascelibrary.org/doi/abs/10.1061/JCCEE5.CPENG-7070",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Reducing changeover waste in customized manufacturing: A causal-informed approach to dynamic sequence optimization",
+    "authors": "M. Dong, B. Akinci, P. Tang",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2026,
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034626003617",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Bench2X: A two-stage explainable AI framework for building end-use energy benchmarking",
+    "authors": "T. Li, J. Xie, T. Liu, Y. Lu, A. O. Sawyer, V. Loftness, P. Tang",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2026,
+    "link": "https://www.sciencedirect.com/science/article/pii/S1474034626002211",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Socio-Technical Assessment of Generative AI Integration in Architecture, Engineering, and Construction (AEC) Workflows: An Empirical Study Using O*NET Occupational Taxonomy",
+    "authors": "R. Xiong, Y. Netser, P. Tang, B. Li, J. Hwang",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2026,
+    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168581",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Quantifying personality in Human-Drone interactions for building heat loss inspection with virtual reality training",
+    "authors": "P. Liu, P. Tang, J. Liu, Y. Hou",
+    "journal": "Advanced Engineering Informatics",
+    "year": 2026,
+    "link": "https://www.sciencedirect.com/science/article/abs/pii/S1474034625010201",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Toward Open Science in the AEC Community: An Ecosystem for Sustainable Digital Knowledge Sharing and Reuse",
+    "authors": "R. Xiong, Y. Wang, J. Cai, K. Liu, Y. Zhu, P. Tang, N. El-Gohary, GE. Gibson Jr",
+    "journal": "arXiv preprint arXiv:2601.00788",
+    "year": 2026,
+    "link": "https://arxiv.org/abs/2601.00788",
+    "tags": [],
     "categories": []
   },
   {
     "title": "Evaluating Contributions of Emerging Technologies to Civil Infrastructure System Resilience. I: A Decision-Making Workflow",
-    "authors": "Z. Chen, K. Soga, P. G. Hubbard, C. Ford, M. R. Taha, D. H. Murcia, P. Tang, B. Glisic, O. Ozbulut, L. Comfort",
+    "authors": "Z. Q. Chen, K. Soga, P. G. Hubbard, C. Ford, M. R. Taha, D. H. Murcia, P. Tang, B. Glisic, O. Ozbulut, L. Comfort",
     "journal": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems",
     "year": 2025,
     "link": "https://ascelibrary.org/doi/full/10.1061/AJRUA6.RUENG-1494",
@@ -19,7 +82,7 @@
   },
   {
     "title": "Evaluating Contributions of Emerging Technologies to Civil Infrastructure System Resilience. II: Case Studies",
-    "authors": "K. Soga, Z. Chen, P. G. Hubbard, C. Ford, M. R. Taha, Daniel H. Murcia, P. Tang, B. Glisic, Osman Ozbulut, Na Lu, Yen-Fang Su, L. Comfort",
+    "authors": "K. Soga, Z. Q. Chen, P. G. Hubbard, C. Ford, M. R. Taha, D. H. Murcia, P. Tang, B. Glisic, O. Ozbulut, N. Lu, Y. Su, L. Comfort",
     "journal": "ASCE-ASME Journal of Risk and Uncertainty in Engineering Systems",
     "year": 2025,
     "link": "https://ascelibrary.org/doi/full/10.1061/AJRUA6.RUENG-1495",
@@ -27,12 +90,59 @@
     "categories": []
   },
   {
-    "title": "Quantifying Personality in Human-Drone Interactions for Building Heat Loss Inspection with Virtual Reality Training",
-    "authors": "P. Liu, P. Tang, J. Liu, Y. Hou",
-    "journal": "arXiv",
+    "title": "Preventing Rear and Side Crashes of Heavy-Duty Tractor-Trailer Combinations with Smart Sensors and Vision Systems",
+    "authors": "A. Jahanbiglari, X. Deng, Y. Nakahira, P. Tang",
+    "journal": "Final Report (Safety21 University Transportation Center), U.S. Department of Transportation",
     "year": 2025,
-    "link": "https://arxiv.org/abs/2504.03014",
-    "tags": ["inspection"],
+    "link": "https://rosap.ntl.bts.gov/view/dot/86407",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Human-Machine Collaboration for Coordinating Design Customization and Production Systems",
+    "authors": "M. Dong, B. Akinci, P. Tang",
+    "journal": "International Design Engineering Technical Conferences and Computers and Information in Engineering Conference",
+    "year": 2025,
+    "link": "https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2025/89244/1225931",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "OpenConstruction: A Systematic Synthesis of Open Visual Datasets for Data-Centric Artificial Intelligence in Construction Monitoring",
+    "authors": "R. Xiong, Y. Wang, J. Cai, K. Liu, Y. Zhu, P. Tang, N. El-Gohary",
+    "journal": "arXiv preprint arXiv:2508.11482",
+    "year": 2025,
+    "link": "https://arxiv.org/abs/2508.11482",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Enhancing Construction Site Analysis and Understanding with 3D Segmentation",
+    "authors": "S. R. S. Vasanthawada, P. Liu, P. Tang",
+    "journal": "arXiv preprint arXiv:2508.05922",
+    "year": 2025,
+    "link": "https://arxiv.org/abs/2508.05922",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Analysis of Drone-Assisted Building Inspection Training in VR vs 2D Monitor Display: an EEG Study",
+    "authors": "P. Liu, J. Greene, J. Huang, P. Tang, Y. Hou",
+    "journal": "arXiv preprint arXiv:2507.01471",
+    "year": 2025,
+    "link": "https://arxiv.org/abs/2507.01471",
+    "tags": [],
+    "categories": []
+  },
+  {
+    "title": "Multi-dimensional data interpretation for defective filter identification",
+    "authors": "P. Liu, J. Xiao, P. Tang",
+    "journal": "Smart Construction",
+    "year": 2025,
+    "link": "https://www.elspub.com/papers/j/1878199321429590016",
+    "tags": [
+      "inspection"
+    ],
     "categories": []
   },
   {
@@ -41,16 +151,9 @@
     "journal": "Developments in the Built Environment",
     "year": 2025,
     "link": "https://doi.org/10.1016/j.dibe.2025.100612",
-    "tags": ["fire"],
-    "categories": []
-  },
-  {
-    "title": "Transforming Architecture, Engineering, and Construction (AEC) Workflows with Generative AI: Opportunities, Risks, and Future Directions",
-    "authors": "R. Xiong, Y. Netser, P. Tang, B. Li, J. Hwang",
-    "journal": "Engineering, and Construction (AEC) Workflows with Generative AI: Opportunities, Risks, and Future Directions",
-    "year": 2024,
-    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5168581",
-    "tags": ["generative_ai"],
+    "tags": [
+      "fire"
+    ],
     "categories": []
   },
   {
@@ -59,16 +162,20 @@
     "journal": "Computer-Aided Civil and Infrastructure Engineering",
     "year": 2024,
     "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/mice.13162",
-    "tags": ["laser_scanning"],
+    "tags": [
+      "laser_scanning"
+    ],
     "categories": []
   },
   {
     "title": "Generalized building energy and carbon emissions benchmarking with post-prediction analysis",
-    "authors": "T. Li, T. Liu, A.O. Sawyer, P. Tahg, V. Loftness, Y. Lu, J. Xie",
+    "authors": "T. Li, T. Liu, A.O. Sawyer, P. Tang, V. Loftness, Y. Lu, J. Xie",
     "journal": "Developments in the Built Environment",
     "year": 2024,
     "link": "https://www.sciencedirect.com/science/article/pii/S2666165924000012",
-    "tags": ["carbon"],
+    "tags": [
+      "carbon"
+    ],
     "categories": []
   },
   {
@@ -86,8 +193,12 @@
     "journal": "Construction Research Congress",
     "year": 2024,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485286.068",
-    "tags": ["manufacturing"],
-    "categories": ["Manufacturing"]
+    "tags": [
+      "manufacturing"
+    ],
+    "categories": [
+      "Manufacturing"
+    ]
   },
   {
     "title": "Image-Based 3D Reconstruction for Multi-Scale Civil and Infrastructure Projects: A Review from 2012 to 2022 with New Perspective from Deep Learning Methods",
@@ -95,7 +206,9 @@
     "journal": "Advanced Engineering Informatics",
     "year": 2024,
     "link": "https://www.sciencedirect.com/science/article/abs/pii/S1474034623003968",
-    "tags": ["3d_reconstruction"],
+    "tags": [
+      "3d_reconstruction"
+    ],
     "categories": []
   },
   {
@@ -104,7 +217,9 @@
     "journal": "Building and Environment, 2024",
     "year": 2024,
     "link": "https://www.sciencedirect.com/science/article/pii/S0360132323010806",
-    "tags": ["hvac"],
+    "tags": [
+      "hvac"
+    ],
     "categories": []
   },
   {
@@ -146,7 +261,7 @@
   {
     "title": "Discovering factors that influence the use of augmented reality for communication on active highway construction sites",
     "authors": "R.E. Kassis, S.K. Ayer, M.E. Asmar, P. Tang",
-    "journal": "Transportation research record",
+    "journal": "Transportation Research Record",
     "year": 2023,
     "link": "https://journals.sagepub.com/doi/abs/10.1177/03611981221131311",
     "tags": [],
@@ -158,12 +273,16 @@
     "journal": "Developments in the Built Environment",
     "year": 2023,
     "link": "https://www.sciencedirect.com/science/article/pii/S2666165923000492",
-    "tags": ["bridge_inspection"],
-    "categories": ["Bridge Inspection"]
+    "tags": [
+      "bridge_inspection"
+    ],
+    "categories": [
+      "Bridge Inspection"
+    ]
   },
   {
     "title": "Dynamic human systems risk prognosis and control of lifting operations during prefabricated building construction",
-    "authors": "Z. Sum, Z. Zhu, R. Xiong, P. Tang, Z. Liu",
+    "authors": "Z. Sun, Z. Zhu, R. Xiong, P. Tang, Z. Liu",
     "journal": "Developments in the Built Environment",
     "year": 2023,
     "link": "https://www.sciencedirect.com/science/article/pii/S266616592300025X",
@@ -182,7 +301,7 @@
   {
     "title": "Proactive Improvements of Standard Taxi Routes in Airports Based on Data-Driven Simulation and Reinforcement Learning",
     "authors": "Y. Wang, P. Tang",
-    "journal": "Transportation Research Board 102nd Annual MeetingTransportation Research Board",
+    "journal": "Transportation Research Board 102nd Annual Meeting",
     "year": 2023,
     "link": "https://trid.trb.org/View/2117809",
     "tags": [],
@@ -195,8 +314,11 @@
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485224.072",
     "tags": [
-      "bridge_inspection"],
-    "categories": ["Bridge Inspection"]
+      "bridge_inspection"
+    ],
+    "categories": [
+      "Bridge Inspection"
+    ]
   },
   {
     "title": "Optimizing HVAC Systems for Energy Efficiency and Comfort: A Scalable and Robust Multi-Zone Control Approach with Uncertainty Considerations",
@@ -204,7 +326,9 @@
     "journal": "Computing in Civil Engineering",
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485248.118",
-    "tags": ["hvac"],
+    "tags": [
+      "hvac"
+    ],
     "categories": []
   },
   {
@@ -213,17 +337,24 @@
     "journal": "Computing in Civil Engineering",
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485231.081",
-    "tags": ["digital_twin"],
+    "tags": [
+      "digital_twin"
+    ],
     "categories": []
   },
   {
     "title": "Enhancing Nuclear Power Plant Operations: An Ontology for Conditional Tasks",
-    "authors": "J. X. ing, P. Liu, P. Tang, R.L. Boring, T.A. Ulrich, R. Lew, G. Edward Gibson Jr",
+    "authors": "J. Xing, P. Liu, P. Tang, R.L. Boring, T.A. Ulrich, R. Lew, G. Edward Gibson Jr",
     "journal": "Computing in Civil Engineering",
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485231.071",
-    "tags": ["npp", "ontology"],
-    "categories": ["Nuclear Operation"]
+    "tags": [
+      "npp",
+      "ontology"
+    ],
+    "categories": [
+      "Nuclear Operation"
+    ]
   },
   {
     "title": "Non-Invasive 3D Imaging and Sensor Data-Based Diagnosis of Water Treatment Plant Filter Integrity",
@@ -231,7 +362,9 @@
     "journal": "ASCE Inspire",
     "year": 2023,
     "link": "https://ascelibrary.org/doi/abs/10.1061/9780784485163.107",
-    "tags": ["inspection"],
+    "tags": [
+      "inspection"
+    ],
     "categories": []
   },
   {
@@ -240,7 +373,9 @@
     "journal": "ISARC",
     "year": 2023,
     "link": "https://www.proquest.com/openview/6b5f857e61291b1bbbb886a9e4d7dca9/1?cbl=1646340&pq-origsite=gscholar",
-    "tags": ["ontology"],
+    "tags": [
+      "ontology"
+    ],
     "categories": []
   },
   {
@@ -249,7 +384,9 @@
     "journal": "Advanced Engineering Informatics",
     "year": 2023,
     "link": "https://www.sciencedirect.com/science/article/pii/S1474034623000228",
-    "tags": ["aviation"],
+    "tags": [
+      "aviation"
+    ],
     "categories": []
   },
   {
