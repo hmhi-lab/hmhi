@@ -1,5 +1,10 @@
 [
   {
+    "titleHtml": "<a href=\"https://engineering.cmu.edu/news-events/news/2026/07/22-improving-pfas-water-treatment.html\" rel=\"noopener\" target=\"_blank\">\n                    Improving PFAS Water Treatment through AI-Supported Engineering Design\n                    <span class=\"fas fa-link\" style=\"margin-left: 8px;\"></span>\n</a>",
+    "bodyHtml": "CMU Engineering featured Prof. Pingbo Tang and collaborators' work on AI-supported engineering design for PFAS water treatment systems. The project uses digital twins, human-AI collaboration, and analysis of design-team communication to help water utilities move more quickly from concept to deployable infrastructure.",
+    "date": "Jul 22, 2026"
+  },
+  {
     "titleHtml": "Ava Jahan Biglari Selected as Pennsylvania’s Student Representative for the IHEEP Conference",
     "bodyHtml": "Ava was selected as Pennsylvania’s student representative for the IHEEP Conference in Austin, Texas, recognizing her research on heavy-duty vehicle safety through perception-to-risk modeling.",
     "date": "May 2026"
