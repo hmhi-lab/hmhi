@@ -2126,6 +2126,12 @@ button,
     font-size: 1.125em; }
   #header .icons {
     text-align: right; }
+  #header .logo, #header .logo strong {
+    transition: color 200ms ease-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #header .logo, #header .logo strong { transition: none; }
+  }
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 5em; } }
