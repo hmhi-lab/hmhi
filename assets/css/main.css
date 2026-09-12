@@ -2216,7 +2216,6 @@ button,
 /* Extra-small portrait: limit image height and hide carousel */
 @media screen and (orientation: portrait) and (max-width: 480px) {
   #banner .image { max-height: 35vh; }
-  #carousel { display: none !important; }
 }
 
 /* Mobile common: remove container/header top spacing */
@@ -2535,7 +2534,7 @@ body {
   overflow: hidden;
 }
 
-#carousel .image-wrapper{ position:relative; width:200%; aspect-ratio:16/9; overflow:hidden; }
+#carousel .image-wrapper{ position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; }
 #carousel .image-wrapper img{ width:100%; height:100%; object-fit:cover; display:block; }
 
 
@@ -2549,10 +2548,21 @@ body {
   object-fit: cover;
 }
 
-@media (max-width: 768px) {
-  #carousel {
-    display: none;
-  }
+/* Keep both hero columns inside the content area at every viewport width. */
+#banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 2em;
+}
+#banner > .content, #banner > #carousel {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+@media (max-width: 980px) {
+  #banner { grid-template-columns: minmax(0, 1fr); gap: 1.5em; }
+  #banner > .content { padding-top: 0; }
 }
 
 .article-image img {
@@ -2624,3 +2634,9 @@ body {
   .features .icon { display: none !important; }
   .features article .content { margin-left: 0 !important; } /*hide research tab icon only mobile*/
 }
+
+/* Consistent spacing for member and alumni biographies. */
+.people-page .member-name { gap: .65em; margin-bottom: .55em; line-height: 1.5; }
+.people-page .member-name .icon { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 28px; }
+.people-page .col-9 > p { max-width: 78ch; line-height: 1.75; margin-bottom: 1.1em; }
+.people-page .col-9 > p:last-child { margin-bottom: 0; }
